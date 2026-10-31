@@ -1,0 +1,50 @@
+{
+  "compiled": {
+    "BP_MazeCore": true,
+    "BP_FogboundHUD": true,
+    "BP_FogboundController": true,
+    "BP_FogboundMode": true
+  },
+  "graph_counts": {
+    "BP_MazeCore": {
+      "UserConstructionScript": 1,
+      "NextCell": 41,
+      "CellDistance": 16,
+      "PreviewRadius": 9,
+      "MoveInterval": 12,
+      "MoveCost": 12,
+      "CheckPath": 58,
+      "RevealAroundPlayer": 30,
+      "PlaceSupply": 45,
+      "ResetRound": 182,
+      "TryMove": 73,
+      "TryEdit": 127,
+      "AdvanceRound": 89,
+      "EventGraph": 3
+    },
+    "BP_FogboundHUD": {
+      "UserConstructionScript": 2,
+      "UIRect": 15,
+      "UILine": 21,
+      "UILabel": 14,
+      "PointerIn": 17,
+      "ClockText": 14,
+      "ProcessInput": 185,
+      "DrawShell": 104,
+      "DrawMap": 285,
+      "DrawStatus": 88,
+      "DrawModal": 97,
+      "EventGraph": 46
+    }
+  },
+  "errors": [],
+  "stage": "saved BP_FogboundMode",
+  "smoke": {
+    "walls": 357,
+    "path": true,
+    "player": 22
+  },
+  "font": "/Game/UI/Fonts/FogSans_Font.FogSans_Font",
+  "map": "/Game/Maps/L_Fogbound",
+  "success": true
+}

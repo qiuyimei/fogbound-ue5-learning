@@ -1,0 +1,36 @@
+{
+  "/Game/Blueprints/Core/BP_MazeCore": {
+    "compiled": true,
+    "warnings": [],
+    "errors": []
+  },
+  "/Game/Blueprints/UI/BP_FogboundHUD": {
+    "compiled": true,
+    "warnings": [],
+    "errors": []
+  },
+  "/Game/Blueprints/BP_FogboundController": {
+    "compiled": true,
+    "warnings": [],
+    "errors": []
+  },
+  "/Game/Blueprints/BP_FogboundMode": {
+    "compiled": true,
+    "warnings": [],
+    "errors": []
+  },
+  "mode_defaults": {
+    "hud_class": "/Game/Blueprints/UI/BP_FogboundHUD.BP_FogboundHUD_C",
+    "player_controller_class": "/Game/Blueprints/BP_FogboundController.BP_FogboundController_C",
+    "default_pawn_class": null
+  },
+  "ui_checks": {
+    "clock_0": true,
+    "clock_239": true,
+    "preview_radius": true,
+    "nonzero_divisors": true,
+    "key_literals": true,
+    "pointer_inside": true,
+    "pointer_outside": true
+  }
+}

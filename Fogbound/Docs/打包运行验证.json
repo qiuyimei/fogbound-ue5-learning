@@ -1,0 +1,12 @@
+{
+  "engine": "5.8.4",
+  "platform": "Win64",
+  "package": "Development",
+  "build_cook_run": "success",
+  "packaged_executable_launched": true,
+  "cooked_chinese_font_loaded": true,
+  "runtime_blueprint_reset_and_move": "success",
+  "runtime_script_warnings": 0,
+  "screenshot": "Preview.png",
+  "scope": "同机双人 俯视二维网格 纯蓝图"
+}

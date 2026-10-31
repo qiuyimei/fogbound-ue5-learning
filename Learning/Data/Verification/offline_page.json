@@ -1,0 +1,44 @@
+{
+  "passed": true,
+  "checks": [
+    "offline load",
+    "22 function index",
+    "keyboard move",
+    "mouse edit preserves path",
+    "fog decay",
+    "DFS single step",
+    "node search",
+    "mobile width"
+  ],
+  "pageErrors": [],
+  "initial": {
+    "seed": 12345,
+    "player": 22,
+    "steps": 0,
+    "state": 1,
+    "edits": 0,
+    "cooldown": 0,
+    "pathLength": 37,
+    "functions": 22
+  },
+  "moved": {
+    "seed": 12345,
+    "player": 23,
+    "steps": 1,
+    "state": 1,
+    "edits": 0,
+    "cooldown": 0,
+    "pathLength": 36,
+    "functions": 22
+  },
+  "edited": {
+    "seed": 12345,
+    "player": 23,
+    "steps": 1,
+    "state": 1,
+    "edits": 1,
+    "cooldown": 2.8,
+    "pathLength": 34,
+    "functions": 22
+  }
+}

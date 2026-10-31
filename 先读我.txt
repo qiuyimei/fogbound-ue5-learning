@@ -1,0 +1,12 @@
+﻿雾城博弈 UE5 完整学习包
+
+1. 双击「开始学习.cmd」或打开 Learning/离线学习.html。
+2. 阅读 Learning/雾城博弈学习手册.docx（16 页，12 章，含练习与参考答案）。
+3. 用 Unreal Engine 5.8 打开 Fogbound/Fogbound.uproject（5.8.4 已验证）。
+4. 源码生成和验证脚本在 Tools；教学算法在 Reference。
+5. Windows 试玩包从私有仓库 Releases 单独下载，完整解压后运行 Windows/Fogbound.exe。
+
+私有仓库：https://github.com/qiuyimei/fogbound-ue5-learning
+发行下载：https://github.com/qiuyimei/fogbound-ue5-learning/releases/latest
+
+本版为同机同屏二维网格游戏。完整操作、实现范围和验证记录见 README.md。

@@ -1,0 +1,72 @@
+{
+  "recorded_at_utc": "2026-10-31T06:26:47.108998+00:00",
+  "engine": "Unreal Engine 5.8.4",
+  "passed": true,
+  "fresh_source_reproduction": {
+    "passed": true,
+    "new_empty_project": true,
+    "blueprints_compiled": 4,
+    "core_rule_checks": 23,
+    "native_maze_seeds_checked": 50,
+    "ui_checks": 7,
+    "evidence": [
+      "Verification/blueprint_generation.json",
+      "Verification/rules.json",
+      "Verification/assets.json"
+    ]
+  },
+  "python_reference": {
+    "passed": true,
+    "command": "python -m unittest discover -s Reference -v",
+    "tests": 7,
+    "solvable_map_seeds": 100,
+    "exact_native_seed_fixtures": 8,
+    "checks": [
+      "native Walls/Supplies/Explored equality",
+      "all accepted edits preserve reachability",
+      "100 solvable maps",
+      "preview decay",
+      "items hidden in preview",
+      "row-wrap bounds",
+      "unique-path edit rollback"
+    ]
+  },
+  "javascript_reference": {
+    "passed": true,
+    "command": "node Reference/test_javascript.cjs",
+    "exact_native_seed_fixtures": 8,
+    "checks": [
+      "row bounds",
+      "BFS",
+      "edit rollback"
+    ]
+  },
+  "offline_page": {
+    "passed": true,
+    "checks": [
+      "offline load",
+      "22 function index",
+      "keyboard move",
+      "mouse edit preserves path",
+      "fog decay",
+      "DFS single step",
+      "node search",
+      "mobile width"
+    ],
+    "page_errors": [],
+    "evidence": "Verification/offline_page.json"
+  },
+  "handbook": {
+    "passed": true,
+    "pages_rendered": 16,
+    "pages_visually_reviewed": 16,
+    "method": "DOCX -> native Word PDF -> packaged render_docx.py Poppler rasterization",
+    "sha256": "e9e226a2f92357eaf714915f455660de7d83c54e9766a6f28e433c00d1bbacb7"
+  },
+  "limits": [
+    "same-computer shared-screen 2D version",
+    "no network multiplayer",
+    "teaching references do not replace UE runtime and full frame clock",
+    "tests do not prove correctness for every future engine version or input device"
+  ]
+}

@@ -1,0 +1,13 @@
+**/Saved/
+**/Intermediate/
+**/DerivedDataCache/
+**/Binaries/
+**/Build/
+**/.vs/
+**/__pycache__/
+*.pyc
+*.sln
+Sandboxes/
+*.zip
+.env
+.env.*

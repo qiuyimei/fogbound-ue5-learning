@@ -1,0 +1,122 @@
+{
+  "checks": [
+    {
+      "name": "50 个随机种子均有到出口的真实通路",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Blueprint BFS 与独立 Python BFS 结果一致",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "每局 12 个补给均位于通路上",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "边界完整且不可越界",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "随机种子产生不同布局",
+      "passed": true,
+      "detail": "50 个不同布局"
+    },
+    {
+      "name": "同一随机种子可复现地图和补给",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "四邻域拒绝跨行穿越",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "起点终点和边界拒绝编辑",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "黑色盲区拒绝编辑",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "遍历所有内部格改墙始终保留出口通路",
+      "passed": true,
+      "detail": "接受 256 次，拒绝 29 次"
+    },
+    {
+      "name": "至少接受一次合法改墙",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "切断唯一通路的改墙回滚且不消耗冷却",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "移动模式 0 有独立速度和体力消耗",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "移动模式 1 有独立速度和体力消耗",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "移动模式 2 有独立速度和体力消耗",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "补给只能拾取一次并恢复体力",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "暂停时计时体力和冷却全部冻结",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "体力耗尽触发操控者获胜",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "抵达出口触发闯关者获胜",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "240 秒救援结束对局",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "0 秒的操控者预视野半径",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "100 秒的操控者预视野半径",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "160 秒的操控者预视野半径",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "failures": [],
+  "passed": true,
+  "total": 23
+}
