@@ -1,3 +1,29 @@
+<!-- project-showcase:start -->
+<p align="center"><img src="docs/showcase/cover.svg" width="100%" alt="雾城博弈 · UE5期末工程、试玩与学习材料" /></p>
+<p align="center"><b>雾城探索 · 博弈策略 · 工程学习</b></p>
+<p align="center"><a href="#作品画面">看作品</a>　 ·　 <a href="ITERATION_HISTORY.md">历次迭代</a>　 ·　 <a href="https://github.com/qiuyimei/fogbound-ue5-learning/archive/refs/heads/main.zip">下载源码</a>　 ·　 <a href="https://github.com/qiuyimei/codex-old-deliverables-20261031#作品图录">全部作品</a></p>
+
+**雾城博弈** · UE5期末工程、试玩与学习材料。
+
+## 作品画面
+
+<p align="center"><a href="docs/showcase/preview-01.png"><img src="docs/showcase/preview-01.png" width="900" alt="游戏试玩画面" /></a><br/><sub>游戏试玩画面</sub></p>
+
+## 从这里开始
+
+| 想做什么 | 入口 |
+| --- | --- |
+| 查看每次迭代、日期与改动 | [历史版本目录](ITERATION_HISTORY.md) |
+| 下载当前完整源码 | [当前版本 ZIP](https://github.com/qiuyimei/fogbound-ue5-learning/archive/refs/heads/main.zip) |
+| 下载发布包、查看已有附件 | [Releases 发布页](https://github.com/qiuyimei/fogbound-ue5-learning/releases) |
+| 浏览当前工程 | [仓库文件](.) |
+
+<!-- project-showcase:end -->
+
+---
+
+## 使用与项目说明
+
 # 雾城博弈 Fogbound
 
 UE 5.8.4 纯蓝图的同机双人迷雾迷宫，以及配套的中文学习文件。A 使用键盘探索，B 使用鼠标修改墙体；每次改墙都用 BFS 检查到出口的通路。
@@ -90,3 +116,4 @@ node Reference/test_javascript.cjs
 教程根据本项目的实际资产与源码编写。UE 编辑器脚本 API 的官方入口见 [BlueprintEditorLibrary](https://dev.epicgames.com/documentation/unreal-engine/API/Editor/BlueprintEditorLibrary) 和 [Python 编辑器脚本说明](https://dev.epicgames.com/documentation/en-us/unreal-engine/scripting-the-unreal-editor-using-python)。
 
 运行项目使用 Unreal Engine；字体来自引擎随附的 Droid Sans Fallback，相关说明见 [ThirdParty](ThirdParty/README.md)。本仓库未额外指定项目开源许可证。
+
