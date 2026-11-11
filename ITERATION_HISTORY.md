@@ -13,7 +13,7 @@
 
 | 时间（原记录） | 改动说明 | 源码 | 下载 |
 |---|---|---|---|
-| 2026-10-31 14:27:22 | Add Fogbound UE5 project and complete Chinese learning kit | [37fe595be0](https://github.com/qiuyimei/fogbound-ue5-learning/tree/37fe595be058a95e8d3a07dcd4d85aea50c01bde) | [ZIP](https://github.com/qiuyimei/fogbound-ue5-learning/archive/37fe595be058a95e8d3a07dcd4d85aea50c01bde.zip) |
+| 2026-10-31 14:27:22 | 变更 48 个文件（新增 48）；涉及 `Learning/algorithms.js`、`Learning/离线学习.html`、`Reference/maze_reference.py`<br>原始记录：Add Fogbound UE5 project and complete Chinese learning kit | [37fe595be0](https://github.com/qiuyimei/fogbound-ue5-learning/tree/37fe595be058a95e8d3a07dcd4d85aea50c01bde) | [ZIP](https://github.com/qiuyimei/fogbound-ue5-learning/archive/37fe595be058a95e8d3a07dcd4d85aea50c01bde.zip) |
 
 ## 核验
 
